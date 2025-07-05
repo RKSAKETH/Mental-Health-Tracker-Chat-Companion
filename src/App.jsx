@@ -1,7 +1,10 @@
-function App() {
+import Moodlooger from "./Moodlogger"
+
+export default function App() {
   return (
-    <div>
-      <h1>Heading</h1>
-    </div>
+    <>
+      <Moodlooger/>
+    </>
   )
 }
+
